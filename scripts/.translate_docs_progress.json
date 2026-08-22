@@ -1,0 +1,554 @@
+{
+  "done": {
+    "big-data/count-different-phone-numbers.md": {
+      "hash_before": "ed193f9781ad61284118f42ee5a16da18de06045",
+      "hash_after": "97b790c1a91d366d583ddfd2b50deb8c01e908ab",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-a-number-if-exists.md": {
+      "hash_before": "648cc0c126cc7e73783b1fdf805315b17705be9e",
+      "hash_after": "7933bf7fedbb0c1d7405eff625f2b299b08a98ba",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-common-urls.md": {
+      "hash_before": "d077457636dc5ea2d1f02a14441af7d69d755fbf",
+      "hash_after": "5efbb022fb2e217aa244bc2be9b4223a3b6c036e",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-hotest-query-string.md": {
+      "hash_before": "6906ce073d5e5337c5e7ede0fde92b6309b6c822",
+      "hash_after": "b03226f04063015ef71422922b22bd118f8a1e62",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-mid-value-in-500-millions.md": {
+      "hash_before": "75b961f11f281f22dcac594b6caf0855e2c5d0ec",
+      "hash_after": "8729d19adbf7a4ec8969090a31c82b1444f6fc8c",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-no-repeat-number.md": {
+      "hash_before": "eff3957c093fb913722cacf4b9d0c7039898cdd5",
+      "hash_after": "d9889b4fe4003bf4e01570972a7f73d04cff5449",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-rank-top-500-numbers.md": {
+      "hash_before": "646f1eeacdf97fb6c2797a967cf689983710edb0",
+      "hash_after": "dfd17206a354f7e59f24f2f75d82f0e7c79beb97",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-top-1-ip.md": {
+      "hash_before": "47ab1a0f1d575831e1ac42187f48c1c3f9dca25a",
+      "hash_after": "fa44471a3cb46ddb42cc3b633c0cbc6c6e94ceec",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/find-top-100-words.md": {
+      "hash_before": "569c65aad30eb1f134575464ee3dc84309093da3",
+      "hash_after": "54d990b7e8ca3961cb1ca1d8e6e07c1c40254792",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/README.md": {
+      "hash_before": "61f75576ad5684b6674eab19622987957450204f",
+      "hash_after": "2bdf0ddb758ab6b98b1ed62d79b39bde2c9f21de",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/sort-the-query-strings-by-counts.md": {
+      "hash_before": "a7be880c19013fd5a8dadd553d9f6a1edffe40df",
+      "hash_after": "4ad746430fc0340f5e44d27132b4fdfbafb5831b",
+      "changed": true,
+      "ok": true
+    },
+    "big-data/topk-problems-and-solutions.md": {
+      "hash_before": "b56082fa310398a9f69b24da2ce7d4efe3680d6b",
+      "hash_after": "d60bf587195ddcfcb17c679d2b4ae3b1f30a6bf2",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-lock-redis-vs-zookeeper.md": {
+      "hash_before": "655905b391d3d4b0ce8f98eea788bd7309ee8dd0",
+      "hash_after": "220f2974ceef14327ca7e5681b985c95e77599d1",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-session.md": {
+      "hash_before": "a6dbebd16cecb940b9a63dfeaad56236b733f276",
+      "hash_after": "2d845de171ec38fd8c75cbc60968049503462ea4",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-system-cap.md": {
+      "hash_before": "a594a21c3276d5111a8ac0c5afcb869d51f77910",
+      "hash_after": "77b907003afaf57a6b13ec90674cf3ff1755f2de",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-system-idempotency.md": {
+      "hash_before": "dcd5e27f677515360a0c8352e8be707b7cefc338",
+      "hash_after": "5e8f62022cf5913a8f0398296c4d6b5f666f5563",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-system-interview.md": {
+      "hash_before": "b4a5c5e67d609dc88505a4985ae599a01a4d5d0d",
+      "hash_after": "ee09ce5687f4cf294472e96993ea7217e7d7736e",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-system-request-sequence.md": {
+      "hash_before": "ecb7f5c12ffef25f412a942a495a4b0fffc40e6e",
+      "hash_after": "93dfe17fa08868956fd52232bbf40b3d11848ef1",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/distributed-transaction.md": {
+      "hash_before": "2b2d66f4e05cd825fa0464f4d7d2799421278664",
+      "hash_after": "a6b7635fa105ec285afe3c33edd56a2cb9e97c4c",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/dubbo-load-balancing.md": {
+      "hash_before": "895784168432d14591f3192a18804f551b44b105",
+      "hash_after": "970a786b140d90e08f76bfaf5a62ed1d58a567cf",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/dubbo-operating-principle.md": {
+      "hash_before": "0100b1e455d2a6135e952adfd34b5da6ed8bf09a",
+      "hash_after": "c456b3a557a119738949449353caac0b12378dfd",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/dubbo-rpc-design.md": {
+      "hash_before": "1bc466ddf4ce455d9307cdc53516cebf62fe1a6e",
+      "hash_after": "08fc6d3aa6222cb9ca9ccaf113f769342ee9a237",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/dubbo-serialization-protocol.md": {
+      "hash_before": "fd28ec7fd2effbd202677e121f6d7767b414905c",
+      "hash_after": "9c80352a11a304b16c3c3c0d2d426a103563459c",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/dubbo-service-management.md": {
+      "hash_before": "9a9db0dd3fd748161498bc05cd32e832f23f68ea",
+      "hash_after": "661d641e4b6886fb624953a93c813832b4dbfa2e",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/dubbo-spi.md": {
+      "hash_before": "9b1d9c12078270ecafa8f7225d89afe6491eb14b",
+      "hash_after": "1c50f148426774a63a6e289b140096679594e4a6",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/README.md": {
+      "hash_before": "7fbc6594b694451e2fe0434571e8a8a4deff4453",
+      "hash_after": "33f03e109e71d1fcf7a0f48ede6d1e040fd109d5",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/why-dubbo.md": {
+      "hash_before": "767d52e34c63ada5fa6b2ce2d2aaf64c2d34fac8",
+      "hash_after": "a3147939c3c43d9317ce6a5946ede4178fc25a36",
+      "changed": true,
+      "ok": true
+    },
+    "distributed-system/zookeeper-application-scenarios.md": {
+      "hash_before": "e09fa4db87d6ab0b547d06fc52abf572832e6a99",
+      "hash_after": "4c2c8101fc65e6e58568dbb6c378dbe396b137b7",
+      "changed": true,
+      "ok": true
+    },
+    "extra-page/advanced.md": {
+      "hash_before": "7078f926b8352ebc6aa968820c3e52670dbdf33f",
+      "hash_after": "36199ede3c603a7e93480ef3c9051771fca30216",
+      "changed": true,
+      "ok": true
+    },
+    "extra-page/offer.md": {
+      "hash_before": "7b4b7678daf14785a60799e57b1ab97aa127a3f5",
+      "hash_after": "29751e1c2c05b013178bb74067f6b8321d8a9a1d",
+      "changed": true,
+      "ok": true
+    },
+    "extra-page/README.md": {
+      "hash_before": "649b9969e24e104e062285e511cf3290c7d696a9",
+      "hash_after": "a271d884dd34e55a9b39ddb6adb2da28210ba70f",
+      "changed": true,
+      "ok": true
+    },
+    "extra-page/rights-defending-action.md": {
+      "hash_before": "8f7c6e88adad542f020604785a6080d07d6a7ae7",
+      "hash_after": "818b217a5ffa4353d73203c3060fe100e13aed62",
+      "changed": true,
+      "ok": true
+    },
+    "extra-page/subscriptions-for-doocs.md": {
+      "hash_before": "26549176fe597c42f11d98ef5e75b126837b75fb",
+      "hash_after": "21bec57c1b9fb0136c5a03ac959e3f8bab9d8184",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/e-commerce-website-detail-page-architecture.md": {
+      "hash_before": "9990d5835cd3caf3afc27b500b6da15cba3b8725",
+      "hash_after": "c2afc9addf57c95871f78ccbcb20baf1db36e731",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-circuit-breaker.md": {
+      "hash_before": "2cc9d1db589588150fbea07b8b9a04721a7f7a05",
+      "hash_after": "f8c68bd18c8295623784cdfe5ff5bfa6cde1d3ad",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-execution-isolation.md": {
+      "hash_before": "0de155fa6aa394cff24d9af2003e9fb69f2514b8",
+      "hash_after": "e88b76605503f602baf043ae0de1b8b1e152ae21",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-fallback.md": {
+      "hash_before": "3aebcaca110958fcb2d0d85f0bc4eec0aca41059",
+      "hash_after": "16f98f5e2cb960e8df62b5a43e8ea1a9ca01a902",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-introduction.md": {
+      "hash_before": "cde0f2a1cd3d9c7f6783a3b837646f5cfefa7cb1",
+      "hash_after": "210b47ce7cf6b9f66c684448929482cb50d76e37",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-process.md": {
+      "hash_before": "d2b16d7d6291ff5c7cdb12e4551682c3227fbd16",
+      "hash_after": "d5d6dcd716dd0533e12eedbb67630cbc41e68892",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-request-cache.md": {
+      "hash_before": "02b28fb66fe7f4c97e933f91b253023ebbbe6768",
+      "hash_after": "a97ffd322559905cb0769c5179e3bfa1b47b7833",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-semphore-isolation.md": {
+      "hash_before": "0856d5bfb3a5d6b6d23f1a37a5937f7a969101a6",
+      "hash_after": "84e070a75c23c11e4d29a83e2a21cf699f1abcfa",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-thread-pool-current-limiting.md": {
+      "hash_before": "bacd736d6f7f7bb6b5c70b042ad8e93f341a884c",
+      "hash_after": "d0ed2b3aa53a53da23cb62ecf00e1af7f8c3f03d",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-thread-pool-isolation.md": {
+      "hash_before": "77d8ba0ffbf96e96b01263dcf904d0b32e2d5d2f",
+      "hash_after": "91da16899e3cf6b9dbd2f55921d1166b7e8f67fa",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/hystrix-timeout.md": {
+      "hash_before": "23b329363a77d7193b250313fe179451aebfd86d",
+      "hash_after": "29f09c00a58f49b5be3312e3347589fc389a574d",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/README.md": {
+      "hash_before": "b4e35a2e5a41875052a0ffe5ee0b2759e1e543c8",
+      "hash_after": "01a22910ff3c6d073e948065a6af1896848c20fa",
+      "changed": true,
+      "ok": true
+    },
+    "high-availability/sentinel-vs-hystrix.md": {
+      "hash_before": "20bc0fd89e221e12315468689d67c2e3d861005a",
+      "hash_after": "4eaa0ee980ed87c5472edf5322e182b14c1ce5c1",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/database-shard-dynamic-expand.md": {
+      "hash_before": "a2ca9f6ff5c46fbb4e9ff1543617bd1a3070747c",
+      "hash_after": "46344c6898d0d5eb1bee7e39fd9d10800fcb559a",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/database-shard-global-id-generate.md": {
+      "hash_before": "db1c3abe4e3b4861eb3a19863d642893a2bb6557",
+      "hash_after": "d93b994d818c98fefa7ec58a2e9f45116436c304",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/database-shard-method.md": {
+      "hash_before": "93d5c07a7632ef04578c6819a5a4c2407bbddadf",
+      "hash_after": "b6ed25416d9dce22eb932487efb4f97e44b757a1",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/database-shard.md": {
+      "hash_before": "c4414ae289740688d961647b2145f039c90dae12",
+      "hash_after": "1c3115156b14c77e82d5e9fe3d34e80083dcd582",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/es-architecture.md": {
+      "hash_before": "8381d67db6edbffe4259ad3d5a87721f23ba4f07",
+      "hash_after": "6da7f89d4b6fe70e6539b4ae942c5e7e0d4ee316",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/es-introduction.md": {
+      "hash_before": "d22c2c2d01d177d7c553382768d831b1e3fd2627",
+      "hash_after": "379a393ac8118fb5e18738a8044a6cff35f22d1f",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/es-optimizing-query-performance.md": {
+      "hash_before": "61b2c16434ef741f83bf0381ced8ccddc9bf945d",
+      "hash_after": "0c54fdef6ed368edb18317dc434bb04af9df7a88",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/es-production-cluster.md": {
+      "hash_before": "d3e11a346144374ddeed075bd58609b8ccff1160",
+      "hash_after": "c466091e4089adff463f50144fd6398af288fabc",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/es-write-query-search.md": {
+      "hash_before": "07d1408db8339dda6c00e39bfae68cdf1ba32cd2",
+      "hash_after": "5562abcbcfc6153cec14018edb061f3232c4afa7",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/high-concurrency-design.md": {
+      "hash_before": "02a9cedfd34cfbad6a510bc8db07da787aa3fced",
+      "hash_after": "36573d8855333be46773274ef15a167e2e08be9c",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/how-to-ensure-high-availability-of-message-queues.md": {
+      "hash_before": "f039991dc6320dea8e14c0902e684544e19667d5",
+      "hash_after": "dad37888d81962170a5635ef40e09f26a5ac76d5",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md": {
+      "hash_before": "8d7350e3b802143fc59a6e8530c6ab9d00eb973a",
+      "hash_after": "5e4b3a264bf74dc3c64169e5f558de703cacfa99",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/how-to-ensure-that-messages-are-not-repeatedly-consumed.md": {
+      "hash_before": "aae2aada7bd052c2ee9afca698043586e863df4d",
+      "hash_after": "cfdc5785636de2f17d6c79470355f6980143ef3f",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/how-to-ensure-the-order-of-messages.md": {
+      "hash_before": "671edb1c4b148190e5302e36050186cedd096b6f",
+      "hash_after": "004531b39a258e0f3822343f5be4807b74e7b7f1",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/how-to-ensure-the-reliable-transmission-of-messages.md": {
+      "hash_before": "388dbc9c6bd0918598df8f9568a0e45afe040b38",
+      "hash_after": "781826ce0a383b4ea764103b439d214b6431ca4b",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/how-to-limit-current.md": {
+      "hash_before": "8d01e0bd81847f8368179996e8a9bf8f7148aeb2",
+      "hash_after": "3f8e856fdaed0e5eedad6ce36ee66994f08d33e4",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/mq-design.md": {
+      "hash_before": "c13e8fd98580094c03b2d83f5e92afc4c47100a3",
+      "hash_after": "506d5ac2aa52f5e8ef1c1e5bf045ed1920e74bcf",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/mq-interview.md": {
+      "hash_before": "9a84f93bc13285dd3e5df2342e8adbfc64a867a3",
+      "hash_after": "570421a19d7deb1af1726251b781c2005536e6ea",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/mq-time-delay-and-expired-failure.md": {
+      "hash_before": "38d25b2d743ddbbf0c4ef2615424ec048f455efd",
+      "hash_after": "45e0da8485cba48a7455ebf2cdbc65edadd0e4d5",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/mysql-read-write-separation.md": {
+      "hash_before": "c78c6df4f6526d020b47c12894bb34e2066efd59",
+      "hash_after": "325e86550edae9b65a4e7b66014e104e2c1da5d8",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/README.md": {
+      "hash_before": "26810f76aadb8f124182f7ce43afbc4ab41d159c",
+      "hash_after": "e63a7aa9817e7e9727ec63af654a0a0988efdcf9",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-caching-avalanche-and-caching-penetration.md": {
+      "hash_before": "87a5e299bacc9db09cec177b6bfb31bb2aaa4527",
+      "hash_after": "faf28f49a1ffa6daba535f8282d98dc60ecd5b63",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-cas.md": {
+      "hash_before": "832894d12238fae4d84395623c0f8abecbf45584",
+      "hash_after": "31587b622a5c03f3f7870bc06fb57cb5ea9dce93",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-cluster.md": {
+      "hash_before": "aa4d13669fd381580617800334b426566ec5cdd4",
+      "hash_after": "50ee8a51455e452d4617629e5815c2abd9ea834f",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-consistence.md": {
+      "hash_before": "5d8390cb19fc99221581b46de9c3e12a2ad51391",
+      "ok": false,
+      "error": "Failed to translate after retries: Request exception can happen due to an api connection error. Please check your connection and try again"
+    },
+    "high-concurrency/redis-data-types.md": {
+      "hash_before": "dbb1650dfcf4b014204492835229b2b82d974ec6",
+      "hash_after": "cc119e631ba0b57f4af413bc3dd59ed8b05cf56b",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-expiration-policies-and-lru.md": {
+      "hash_before": "3fa2dbfbddfed77f03dea72dd8409f9e4854711a",
+      "hash_after": "26afa1a374ad5a3c32e1e6ce9970a83d4f80bc69",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-master-slave.md": {
+      "hash_before": "9d522ef9e492dfa1ad9b00e9465a736ada65a1e6",
+      "hash_after": "1c3375adff72e1ae9d76aa6bf742bfb2981ba8b8",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-persistence.md": {
+      "hash_before": "a4e6c59d1fdd3ad2e4b25c804ca3e7c7d7b83346",
+      "hash_after": "fedf0398f288479347cf8309100ddaa399c8814a",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-production-environment.md": {
+      "hash_before": "fa5b4bc0acc2b8c7cec6ff4178394a86d606a1d3",
+      "hash_after": "0361d2dc831c2cf9290037c52cc730e69258e751",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-rehash.md": {
+      "hash_before": "f9ca742e198386084b8ec5f64130a834265fb98f",
+      "hash_after": "541fd38368e8b6cfe85f17a74f05874b123f1838",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-sentinel.md": {
+      "hash_before": "43e8c5e816786c5a2081efdcf6a8d73ecb7882a8",
+      "hash_after": "61d9358dd26a6d48109e81bff0efddf3e6f9e8fe",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/redis-single-thread-model.md": {
+      "hash_before": "f0c6c1eba3a6ac503f1b4fd1aa7b2a7a6da7e13f",
+      "hash_after": "4d68a6f2febd59f898e9735f18750b71f199cea5",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/why-cache.md": {
+      "hash_before": "b1e187213b5bab44bb5ad17ccce9ab388122d773",
+      "hash_after": "f3155490b0e4b6762427c7c33022484cbb9302a5",
+      "changed": true,
+      "ok": true
+    },
+    "high-concurrency/why-mq.md": {
+      "hash_before": "5ef948aede2ef70b94270ba46eb2bf1188b1a0a4",
+      "hash_after": "4b429b1ff8d2455e0c5bf865339e54137d0dbce4",
+      "changed": true,
+      "ok": true
+    },
+    "index.md": {
+      "hash_before": "a567c55c272e1ba3a718b01618daf0867d466f0e",
+      "hash_after": "bc1ea02dea66ebbe28d09a92b2b6aada513be966",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/advantages-and-disadvantages-of-microservice.md": {
+      "hash_before": "67e27fd78d614c01167d26f7441d3ffbc83aec25",
+      "hash_after": "b7dcc3b2ace89174e40e2548ae8ac8d18b4c3e40",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/choose-microservice-deployment-strategy.md": {
+      "hash_before": "291fc6cff20f7d70392ca57857806aba32087a7f",
+      "hash_after": "55f5527d05337abfcdc52b47b314ddca37338905",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/event-driven-data-management-for-microservices.md": {
+      "hash_before": "8bd3c0d2853ea4f931d0caec808437d82af35da9",
+      "hash_after": "5f1b1ec501029d74d8f283fc5d1f252ee1997e0f",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/how-eureka-enable-service-discovery-and-service-registration.md": {
+      "hash_before": "f2b14d4925040998eb905f3da74f8798541250da",
+      "hash_after": "758d4edfa01d358d7de7c156e3679871d2340c7e",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/micro-service-governance.md": {
+      "hash_before": "69285131a581653fe62e2a9f971fc73adc2de2c3",
+      "hash_after": "a28720cab2227db723d6f4696e11532425605a64",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/micro-services-technology-stack.md": {
+      "hash_before": "b3a435f000f1a1125ec501cb9cafd3190acb919a",
+      "hash_after": "fe2af1c59fcc3548d922c00d96c041a0efca94c8",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/microservices-introduction.md": {
+      "hash_before": "10b08ea06be51fd875e973621d40111192517ee5",
+      "ok": false,
+      "error": "Failed to translate after retries: Request exception can happen due to an api connection error. Please check your connection and try again"
+    },
+    "micro-services/migrating-from-a-monolithic-architecture-to-a-microservices-architecture.md": {
+      "hash_before": "0f62aa818a00b0b551f269c8254a35981ccaa4b8",
+      "hash_after": "f06ce420b9b8b31a93786fd54084db8b4c87e967",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/README.md": {
+      "hash_before": "2ba2e82e0ddbb9ea61efce8f11b11464233cd808",
+      "hash_after": "3da6767267ae5318e32407b2eb3c105093d4ae46",
+      "changed": true,
+      "ok": true
+    },
+    "micro-services/what's-microservice-how-to-communicate.md": {
+      "hash_before": "9f9001c6ad92eefe8e5874a54678d7105f922192",
+      "hash_after": "28b299689ad9345bb3098ea643753c81e020b235",
+      "changed": true,
+      "ok": true
+    }
+  }
+}

@@ -1,193 +1,193 @@
-# 互联网 Java 工程师进阶知识完全扫盲
+# Исчерпывающее руководство по углублённым знаниям для Java-инженера в интернете
 
 [![stars](https://img.shields.io/github/stars/doocs/advanced-java?color=42b883&logo=github&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/stargazers)
 [![forks](https://img.shields.io/github/forks/doocs/advanced-java?color=42b883&logo=github&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/network/members)
 [![license](https://img.shields.io/github/license/doocs/advanced-java?color=42b883&style=flat-square&logo=homeassistantcommunitystore&logoColor=ffffff)](./LICENSE)
 [![doocs](https://img.shields.io/badge/org-join%20us-42b883?style=flat-square&logo=homeassistantcommunitystore&logoColor=ffffff)](https://doocs.github.io/#/?id=how-to-join)
 
-本项目大部分内容来自中华石杉，版权归作者所有，内容涵盖[高并发](#高并发架构)、[分布式](#分布式系统)、[高可用](#高可用架构)、[微服务](#微服务架构)、[海量数据处理](#海量数据处理)等领域知识。我们对这部分知识做了一个系统的整理，方便读者们学习查阅。
+Большая часть материалов этого проекта взята у Китайского Шишаня (Zhonghua Shishan), авторские права принадлежат автору. Содержание охватывает такие области, как [высокая параллельность](#архитектура-высокой-параллельности), [распределённые системы](#распределённые-системы), [высокая доступность](#архитектура-высокой-доступности), [микросервисы](#архитектура-микросервисов) и [обработка больших данных](#обработка-больших-данных). Мы систематизировали эти знания для удобства изучения.
 
-我们也在全力更新算法项目！如果你在准备笔面试算法，或者想进一步提升 coding 能力，欢迎 Star 关注 [doocs/leetcode](https://github.com/doocs/leetcode)
+Мы также активно обновляем проект по алгоритмам! Если вы готовитесь к алгоритмическим собеседованиям или хотите улучшить свои навыки программирования, ставьте Star проекту [doocs/leetcode](https://github.com/doocs/leetcode).
 
-学习本项目之前，先来看看 [Discussions 讨论区](https://github.com/doocs/advanced-java/discussions/9)的技术面试官是怎么说的吧。本项目欢迎各位开发者朋友到 Discussions 讨论区分享自己的一些想法和实践经验。也不妨 Star 关注 [doocs/advanced-java](https://github.com/doocs/advanced-java)，随时追踪项目最新动态。
+Перед изучением этого проекта загляните в [Дискуссии](https://github.com/doocs/advanced-java/discussions/9), чтобы узнать, что говорят технические рекрутеры. Приглашаем разработчиков делиться своими идеями и практическим опытом в разделе Discussions. Ставьте Star на [doocs/advanced-java](https://github.com/doocs/advanced-java), чтобы следить за обновлениями.
 
-## 高并发架构
+## Архитектура высокой параллельности
 
-### [消息队列](/docs/high-concurrency/mq-interview.md)
+### [Очереди сообщений](/docs/high-concurrency/mq-interview.md)
 
--   [为什么使用消息队列？消息队列有什么优点和缺点？Kafka、ActiveMQ、RabbitMQ、RocketMQ 都有什么优点和缺点？](/docs/high-concurrency/why-mq.md)
--   [如何保证消息队列的高可用？](/docs/high-concurrency/how-to-ensure-high-availability-of-message-queues.md)
--   [如何保证消息不被重复消费？（如何保证消息消费的幂等性）](/docs/high-concurrency/how-to-ensure-that-messages-are-not-repeatedly-consumed.md)
--   [如何保证消息的可靠性传输？（如何处理消息丢失的问题）](/docs/high-concurrency/how-to-ensure-the-reliable-transmission-of-messages.md)
--   [如何保证消息的顺序性？](/docs/high-concurrency/how-to-ensure-the-order-of-messages.md)
--   [如何解决消息队列的延时以及过期失效问题？消息队列满了以后该怎么处理？有几百万消息持续积压几小时，说说怎么解决？](/docs/high-concurrency/mq-time-delay-and-expired-failure.md)
--   [如果让你写一个消息队列，该如何进行架构设计啊？说一下你的思路。](/docs/high-concurrency/mq-design.md)
+-   [Зачем нужны очереди сообщений? Каковы их преимущества и недостатки? В чём плюсы и минусы Kafka, ActiveMQ, RabbitMQ, RocketMQ?](/docs/high-concurrency/why-mq.md)
+-   [Как обеспечить высокую доступность очереди сообщений?](/docs/high-concurrency/how-to-ensure-high-availability-of-message-queues.md)
+-   [Как гарантировать, что сообщение не будет обработано повторно? (Как обеспечить идемпотентность потребления?)](/docs/high-concurrency/how-to-ensure-that-messages-are-not-repeatedly-consumed.md)
+-   [Как обеспечить надёжную передачу сообщений? (Как решить проблему потери сообщений?)](/docs/high-concurrency/how-to-ensure-the-reliable-transmission-of-messages.md)
+-   [Как гарантировать порядок сообщений?](/docs/high-concurrency/how-to-ensure-the-order-of-messages.md)
+-   [Как решить проблемы с задержкой, истечением срока действия и переполнением очереди? Что делать, если накопилось несколько миллионов сообщений на несколько часов?](/docs/high-concurrency/mq-time-delay-and-expired-failure.md)
+-   [Если бы вас попросили спроектировать очередь сообщений с нуля, как бы вы подошли к архитектуре? Опишите ваши идеи.](/docs/high-concurrency/mq-design.md)
 
-### [搜索引擎](/docs/high-concurrency/es-introduction.md)
+### [Поисковые системы](/docs/high-concurrency/es-introduction.md)
 
--   [ES 的分布式架构原理能说一下么（ES 是如何实现分布式的啊）？](/docs/high-concurrency/es-architecture.md)
--   [ES 写入数据的工作原理是什么啊？ES 查询数据的工作原理是什么啊？底层的 Lucene 介绍一下呗？倒排索引了解吗？](/docs/high-concurrency/es-write-query-search.md)
--   [ES 在数据量很大的情况下（数十亿级别）如何提高查询效率啊？](/docs/high-concurrency/es-optimizing-query-performance.md)
--   [ES 生产集群的部署架构是什么？每个索引的数据量大概有多少？每个索引大概有多少个分片？](/docs/high-concurrency/es-production-cluster.md)
+-   [Можете рассказать о принципах распределённой архитектуры Elasticsearch (как ES реализует распределённость)?](/docs/high-concurrency/es-architecture.md)
+-   [Как работает запись данных в ES? Как работает поиск? Что такое Lucene под капотом? Знакомы ли с инвертированным индексом?](/docs/high-concurrency/es-write-query-search.md)
+-   [Как повысить эффективность поиска в ES при очень больших объёмах данных (миллиарды записей)?](/docs/high-concurrency/es-optimizing-query-performance.md)
+-   [Какова архитектура продакшн-кластера ES? Каков примерный объём данных на индекс? Сколько шардов обычно используется на индекс?](/docs/high-concurrency/es-production-cluster.md)
 
-### 缓存
+### Кэширование
 
--   [在项目中缓存是如何使用的？缓存如果使用不当会造成什么后果？](/docs/high-concurrency/why-cache.md)
--   [Redis 和 Memcached 有什么区别？Redis 的线程模型是什么？为什么单线程的 Redis 比多线程的 Memcached 效率要高得多？](/docs/high-concurrency/redis-single-thread-model.md)
--   [Redis 都有哪些数据类型？分别在哪些场景下使用比较合适？](/docs/high-concurrency/redis-data-types.md)
--   [Redis 的过期策略都有哪些？手写一下 LRU 代码实现？](/docs/high-concurrency/redis-expiration-policies-and-lru.md)
--   [如何保证 Redis 高并发、高可用？Redis 的主从复制原理能介绍一下么？Redis 的哨兵原理能介绍一下么？](/docs/high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md)
--   [Redis 主从架构是怎样的？](/docs/high-concurrency/redis-master-slave.md)
--   [Redis 哨兵集群如何实现高可用？](/docs/high-concurrency/redis-sentinel.md)
--   [Redis 的持久化有哪几种方式？不同的持久化机制都有什么优缺点？持久化机制具体底层是如何实现的？](/docs/high-concurrency/redis-persistence.md)
--   [Redis 集群模式的工作原理能说一下么？在集群模式下，Redis 的 key 是如何寻址的？分布式寻址都有哪些算法？了解一致性 hash 算法吗？如何动态增加和删除一个节点？](/docs/high-concurrency/redis-cluster.md)
--   [了解什么是 Redis 的雪崩、穿透和击穿？Redis 崩溃之后会怎么样？系统该如何应对这种情况？如何处理 Redis 的穿透？](/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md)
--   [如何保证缓存与数据库的双写一致性？](/docs/high-concurrency/redis-consistence.md)
--   [Redis 的并发竞争问题是什么？如何解决这个问题？了解 Redis 事务的 CAS 方案吗？](/docs/high-concurrency/redis-cas.md)
--   [生产环境中的 Redis 是怎么部署的？](/docs/high-concurrency/redis-production-environment.md)
--   [有了解过 Redis rehash 的过程吗？](/docs/high-concurrency/redis-rehash.md)
+-   [Как используется кэш в вашем проекте? К каким последствиям может привести неправильное использование кэша?](/docs/high-concurrency/why-cache.md)
+-   [В чём разница между Redis и Memcached? Какова потоковая модель Redis? Почему однопоточный Redis эффективнее многопоточного Memcached?](/docs/high-concurrency/redis-single-thread-model.md)
+-   [Какие типы данных поддерживает Redis? В каких сценариях какой тип лучше использовать?](/docs/high-concurrency/redis-data-types.md)
+-   [Какие стратегии удаления ключей с истекшим сроком действия существуют в Redis? Напишите реализацию LRU вручную?](/docs/high-concurrency/redis-expiration-policies-and-lru.md)
+-   [Как обеспечить высокую параллельность и доступность Redis? Можете описать принципы репликации мастер-слейв и механизма Sentinel?](/docs/high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md)
+-   [Как устроена архитектура мастер-слейв в Redis?](/docs/high-concurrency/redis-master-slave.md)
+-   [Как кластер Redis Sentinel обеспечивает высокую доступность?](/docs/high-concurrency/redis-sentinel.md)
+-   [Какие механизмы персистентности есть в Redis? В чём плюсы и минусы каждого? Как они реализованы на низком уровне?](/docs/high-concurrency/redis-persistence.md)
+-   [Можете объяснить принцип работы кластерного режима Redis? Как выполняется поиск ключа в кластере? Какие алгоритмы распределённого хеширования существуют? Что такое консистентное хеширование? Как динамически добавлять и удалять узлы?](/docs/high-concurrency/redis-cluster.md)
+-   [Что такое "лавина", "пробивание" и "пробой" кэша в Redis? Что произойдёт при падении Redis? Как система должна реагировать на такие ситуации? Как бороться с пробиванием кэша?](/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md)
+-   [Как обеспечить согласованность данных между кэшем и базой данных при двойной записи?](/docs/high-concurrency/redis-consistence.md)
+-   [В чём суть проблемы конкурентного доступа в Redis? Как её решить? Знакомы ли с CAS-подходом в транзакциях Redis?](/docs/high-concurrency/redis-cas.md)
+-   [Как разворачивается Redis в продакшн-среде?](/docs/high-concurrency/redis-production-environment.md)
+-   [Знакомы ли с процессом перехеширования (rehash) в Redis?](/docs/high-concurrency/redis-rehash.md)
 
-### 分库分表
+### Шардирование баз данных и таблиц
 
--   [为什么要分库分表（设计高并发系统的时候，数据库层面该如何设计）？用过哪些分库分表中间件？不同的分库分表中间件都有什么优点和缺点？你们具体是如何对数据库如何进行垂直拆分或水平拆分的？](/docs/high-concurrency/database-shard.md)
--   [现在有一个未分库分表的系统，未来要分库分表，如何设计才可以让系统从未分库分表动态切换到分库分表上？](/docs/high-concurrency/database-shard-method.md)
--   [如何设计可以动态扩容缩容的分库分表方案？](/docs/high-concurrency/database-shard-dynamic-expand.md)
--   [分库分表之后，id 主键如何处理？](/docs/high-concurrency/database-shard-global-id-generate.md)
+-   [Зачем нужно шардирование (при проектировании высоконагруженной системы)? Какие middleware для шардирования вы использовали? Их плюсы и минусы? Как вы выполняете вертикальное и горизонтальное шардирование?](/docs/high-concurrency/database-shard.md)
+-   [Есть система без шардирования, но в будущем планируется его внедрение. Как спроектировать систему, чтобы переход был плавным?](/docs/high-concurrency/database-shard-method.md)
+-   [Как спроектировать схему шардирования, позволяющую динамически расширять и сжимать количество узлов?](/docs/high-concurrency/database-shard-dynamic-expand.md)
+-   [Как генерировать глобальные идентификаторы (ID) после шардирования?](/docs/high-concurrency/database-shard-global-id-generate.md)
 
-### 读写分离
+### Разделение чтения и записи
 
--   [如何实现 MySQL 的读写分离？MySQL 主从复制原理是啥？如何解决 MySQL 主从同步的延时问题？](/docs/high-concurrency/mysql-read-write-separation.md)
+-   [Как реализовать разделение чтения и записи в MySQL? В чём суть репликации мастер-слейв? Как бороться с задержками синхронизации на слейвах?](/docs/high-concurrency/mysql-read-write-separation.md)
 
-### 高并发系统
+### Системы с высокой параллельностью
 
--   [如何设计一个高并发系统？](/docs/high-concurrency/high-concurrency-design.md)
+-   [Как спроектировать систему с высокой параллельностью?](/docs/high-concurrency/high-concurrency-design.md)
 
-## 分布式系统
+## Распределённые системы
 
-### [面试连环炮](/docs/distributed-system/distributed-system-interview.md)
+### [Собеседование: шквал вопросов](/docs/distributed-system/distributed-system-interview.md)
 
-### 系统拆分
+### Разделение системы
 
--   [为什么要进行系统拆分？如何进行系统拆分？拆分后不用 Dubbo 可以吗？](/docs/distributed-system/why-dubbo.md)
+-   [Зачем разделять систему? Как это делать? Можно ли обойтись без Dubbo после разделения?](/docs/distributed-system/why-dubbo.md)
 
-### 分布式服务框架
+### Фреймворки для распределённых сервисов
 
--   [说一下 Dubbo 的工作原理？注册中心挂了可以继续通信吗？](/docs/distributed-system/dubbo-operating-principle.md)
--   [Dubbo 支持哪些序列化协议？说一下 Hessian 的数据结构？PB 知道吗？为什么 PB 的效率是最高的？](/docs/distributed-system/dubbo-serialization-protocol.md)
--   [Dubbo 负载均衡策略和集群容错策略都有哪些？动态代理策略呢？](/docs/distributed-system/dubbo-load-balancing.md)
--   [Dubbo 的 spi 思想是什么？](/docs/distributed-system/dubbo-spi.md)
--   [如何基于 Dubbo 进行服务治理、服务降级、失败重试以及超时重试？](/docs/distributed-system/dubbo-service-management.md)
--   [分布式服务接口的幂等性如何设计（比如不能重复扣款）？](/docs/distributed-system/distributed-system-idempotency.md)
--   [分布式服务接口请求的顺序性如何保证？](/docs/distributed-system/distributed-system-request-sequence.md)
--   [如何自己设计一个类似 Dubbo 的 RPC 框架？](/docs/distributed-system/dubbo-rpc-design.md)
--   [CAP 定理的 P 是什么？](/docs/distributed-system/distributed-system-cap.md)
+-   [Расскажите о принципе работы Dubbo. Если реестр упадёт, сможет ли общение продолжаться?](/docs/distributed-system/dubbo-operating-principle.md)
+-   [Какие протоколы сериализации поддерживает Dubbo? Расскажите о структуре данных Hessian. Что такое Protocol Buffers (PB)? Почему PB самый эффективный?](/docs/distributed-system/dubbo-serialization-protocol.md)
+-   [Какие стратегии балансировки нагрузки и отказоустойчивости кластера поддерживает Dubbo? Какие стратегии динамического прокси?](/docs/distributed-system/dubbo-load-balancing.md)
+-   [В чём заключается концепция SPI в Dubbo?](/docs/distributed-system/dubbo-spi.md)
+-   [Как на основе Dubbo выполнять управление сервисами, снижение нагрузки, повторные попытки при сбоях и тайм-аутах?](/docs/distributed-system/dubbo-service-management.md)
+-   [Как спроектировать идемпотентность интерфейса распределённого сервиса (например, чтобы нельзя было дважды списать деньги)?](/docs/distributed-system/distributed-system-idempotency.md)
+-   [Как гарантировать порядок выполнения запросов к распределённому сервису?](/docs/distributed-system/distributed-system-request-sequence.md)
+-   [Как спроектировать RPC-фреймворк, аналогичный Dubbo?](/docs/distributed-system/dubbo-rpc-design.md)
+-   [Что означает "P" в теореме CAP?](/docs/distributed-system/distributed-system-cap.md)
 
-### 分布式锁
+### Распределённые блокировки
 
--   [Zookeeper 都有哪些应用场景？](/docs/distributed-system/zookeeper-application-scenarios.md)
--   [使用 Redis 如何设计分布式锁？使用 Zookeeper 来设计分布式锁可以吗？以上两种分布式锁的实现方式哪种效率比较高？](/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md)
+-   [Какие сценарии применения есть у Zookeeper?](/docs/distributed-system/zookeeper-application-scenarios.md)
+-   [Как спроектировать распределённую блокировку с помощью Redis? А с помощью Zookeeper? Какой из этих подходов эффективнее?](/docs/distributed-system/distributed-lock-redis-vs-zookeeper.md)
 
-### 分布式事务
+### Распределённые транзакции
 
--   [分布式事务了解吗？你们如何解决分布式事务问题的？TCC 如果出现网络连不通怎么办？XA 的一致性如何保证？](/docs/distributed-system/distributed-transaction.md)
+-   [Знакомы ли с распределёнными транзакциями? Как вы решаете эту проблему? Что делать, если при TCC возникают сетевые проблемы? Как обеспечивается согласованность в XA?](/docs/distributed-system/distributed-transaction.md)
 
-### 分布式会话
+### Распределённые сессии
 
--   [集群部署时的分布式 Session 如何实现？](/docs/distributed-system/distributed-session.md)
+-   [Как организовать распределённые сессии в кластерной среде?](/docs/distributed-system/distributed-session.md)
 
-## 高可用架构
+## Архитектура высокой доступности
 
--   [Hystrix 介绍](/docs/high-availability/hystrix-introduction.md)
--   [电商网站详情页系统架构](/docs/high-availability/e-commerce-website-detail-page-architecture.md)
--   [Hystrix 线程池技术实现资源隔离](/docs/high-availability/hystrix-thread-pool-isolation.md)
--   [Hystrix 信号量机制实现资源隔离](/docs/high-availability/hystrix-semphore-isolation.md)
--   [Hystrix 隔离策略细粒度控制](/docs/high-availability/hystrix-execution-isolation.md)
--   [深入 Hystrix 执行时内部原理](/docs/high-availability/hystrix-process.md)
--   [基于 request cache 请求缓存技术优化批量商品数据查询接口](/docs/high-availability/hystrix-request-cache.md)
--   [基于本地缓存的 fallback 降级机制](/docs/high-availability/hystrix-fallback.md)
--   [深入 Hystrix 断路器执行原理](/docs/high-availability/hystrix-circuit-breaker.md)
--   [深入 Hystrix 线程池隔离与接口限流](/docs/high-availability/hystrix-thread-pool-current-limiting.md)
--   [基于 timeout 机制为服务接口调用超时提供安全保护](/docs/high-availability/hystrix-timeout.md)
+-   [Введение в Hystrix](/docs/high-availability/hystrix-introduction.md)
+-   [Архитектура страницы товара в интернет-магазине](/docs/high-availability/e-commerce-website-detail-page-architecture.md)
+-   [Изоляция ресурсов через пул потоков Hystrix](/docs/high-availability/hystrix-thread-pool-isolation.md)
+-   [Изоляция ресурсов через семафоры Hystrix](/docs/high-availability/hystrix-semphore-isolation.md)
+-   [Тонкая настройка стратегий изоляции в Hystrix](/docs/high-availability/hystrix-execution-isolation.md)
+-   [Внутренние принципы выполнения Hystrix](/docs/high-availability/hystrix-process.md)
+-   [Оптимизация массового запроса данных о товарах с использованием request cache](/docs/high-availability/hystrix-request-cache.md)
+-   [Механизм fallback с локальным кэшированием](/docs/high-availability/hystrix-fallback.md)
+-   [Принцип работы автоматического выключателя (circuit breaker) в Hystrix](/docs/high-availability/hystrix-circuit-breaker.md)
+-   [Изоляция через пул потоков и ограничение запросов в Hystrix](/docs/high-availability/hystrix-thread-pool-current-limiting.md)
+-   [Защита от тайм-аутов при вызове сервисов с помощью механизма timeout](/docs/high-availability/hystrix-timeout.md)
 
-### 高可用系统
+### Системы с высокой доступностью
 
--   如何设计一个高可用系统？
+-   Как спроектировать систему с высокой доступностью?
 
-### 限流
+### Лимитирование запросов (Rate Limiting)
 
--   [如何限流？在工作中是怎么做的？说一下具体的实现？](/docs/high-concurrency/how-to-limit-current.md)
+-   [Как вы ограничиваете запросы? Что вы используете на практике? Расскажите о конкретной реализации.](/docs/high-concurrency/how-to-limit-current.md)
 
-### 熔断
+### Автоматическое отключение (Circuit Breaking)
 
--   如何进行熔断？
--   熔断框架都有哪些？具体实现原理知道吗？
--   [熔断框架如何做技术选型？选用 Sentinel 还是 Hystrix？](/docs/high-availability/sentinel-vs-hystrix.md)
+-   Как выполняется автоматическое отключение?
+-   Какие фреймворки для этого существуют? Знаете ли вы принципы их работы?
+-   [Как выбрать фреймворк для автоматического отключения: Sentinel или Hystrix?](/docs/high-availability/sentinel-vs-hystrix.md)
 
-### 降级
+### Снижение нагрузки (Fallback / Degradation)
 
--   如何进行降级？
+-   Как выполняется снижение нагрузки?
 
-## 微服务架构
+## Архитектура микросервисов
 
--   [微服务架构整个章节内容属额外新增，后续抽空更新，也欢迎读者们参与补充完善](https://github.com/doocs/advanced-java)
--   [关于微服务架构的描述](/docs/micro-services/microservices-introduction.md)
--   [从单体式架构迁移到微服务架构](/docs/micro-services/migrating-from-a-monolithic-architecture-to-a-microservices-architecture.md)
--   [微服务的事件驱动数据管理](/docs/micro-services/event-driven-data-management-for-microservices.md)
--   [选择微服务部署策略](/docs/micro-services/choose-microservice-deployment-strategy.md)
--   [微服务架构的优势与不足](/docs/micro-services/advantages-and-disadvantages-of-microservice.md)
+-   [Весь раздел по микросервисам добавлен дополнительно, будет обновляться позже. Приглашаем читателей к участию](https://github.com/doocs/advanced-java)
+-   [Описание архитектуры микросервисов](/docs/micro-services/microservices-introduction.md)
+-   [Миграция с монолитной архитектуры на микросервисы](/docs/micro-services/migrating-from-a-monolithic-architecture-to-a-microservices-architecture.md)
+-   [Управление данными на основе событий в микросервисах](/docs/micro-services/event-driven-data-management-for-microservices.md)
+-   [Выбор стратегии развертывания микросервисов](/docs/micro-services/choose-microservice-deployment-strategy.md)
+-   [Преимущества и недостатки микросервисной архитектуры](/docs/micro-services/advantages-and-disadvantages-of-microservice.md)
 
-### Spring Cloud 微服务架构
+### Микросервисы на Spring Cloud
 
--   [什么是微服务？微服务之间是如何独立通讯的？](/docs/micro-services/what's-microservice-how-to-communicate.md)
--   Spring Cloud 和 Dubbo 有哪些区别？
--   Spring Boot 和 Spring Cloud，谈谈你对它们的理解？
--   什么是服务熔断？什么是服务降级？
--   微服务的优缺点分别是什么？说一下你在项目开发中碰到的坑？
--   [你所知道的微服务技术栈都有哪些？](/docs/micro-services/micro-services-technology-stack.md)
--   [微服务治理策略](/docs/micro-services/micro-service-governance.md)
--   Eureka 和 Zookeeper 都可以提供服务注册与发现的功能，它们有什么区别？
--   [谈谈服务发现组件 Eureka 的主要调用过程？](/docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
+-   [Что такое микросервисы? Как микросервисы общаются друг с другом?](/docs/micro-services/what's-microservice-how-to-communicate.md)
+-   В чём разница между Spring Cloud и Dubbo?
+-   Что вы понимаете под Spring Boot и Spring Cloud?
+-   Что такое "отключение сервиса" и "снижение нагрузки"?
+-   Каковы плюсы и минусы микросервисов? Расскажите о проблемах, с которыми вы сталкивались в проектах.
+-   [Какие технологии входят в ваш стек микросервисов?](/docs/micro-services/micro-services-technology-stack.md)
+-   [Стратегии управления микросервисами](/docs/micro-services/micro-service-governance.md)
+-   В чём разница между Eureka и Zookeeper как реестрами сервисов?
+-   [Расскажите об основном процессе работы сервиса обнаружения Eureka.](/docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
 -   ......
 
-## 海量数据处理
+## Обработка больших данных
 
--   [如何从大量的 URL 中找出相同的 URL？](/docs/big-data/find-common-urls.md)
--   [如何从大量数据中找出高频词？](/docs/big-data/find-top-100-words.md)
--   [如何找出某一天访问百度网站最多的 IP？](/docs/big-data/find-top-1-ip.md)
--   [如何在大量的数据中找出不重复的整数？](/docs/big-data/find-no-repeat-number.md)
--   [如何在大量的数据中判断一个数是否存在？](/docs/big-data/find-a-number-if-exists.md)
--   [如何查询最热门的查询串？](/docs/big-data/find-hotest-query-string.md)
--   [如何统计不同电话号码的个数？](/docs/big-data/count-different-phone-numbers.md)
--   [如何从 5 亿个数中找出中位数？](/docs/big-data/find-mid-value-in-500-millions.md)
--   [如何按照 query 的频度排序？](/docs/big-data/sort-the-query-strings-by-counts.md)
--   [如何找出排名前 500 的数？](/docs/big-data/find-rank-top-500-numbers.md)
--   [讲讲大数据中 TopK 问题的常用套路？](/docs/big-data/topk-problems-and-solutions.md)
+-   [Как найти одинаковые URL-адреса среди большого их количества?](/docs/big-data/find-common-urls.md)
+-   [Как найти самые частотные слова в большом объёме данных?](/docs/big-data/find-top-100-words.md)
+-   [Как найти IP-адрес, с которого было больше всего запросов к Baidu за день?](/docs/big-data/find-top-1-ip.md)
+-   [Как найти уникальные целые числа в большом наборе данных?](/docs/big-data/find-no-repeat-number.md)
+-   [Как определить, существует ли число в огромном наборе данных?](/docs/big-data/find-a-number-if-exists.md)
+-   [Как найти самые популярные поисковые запросы?](/docs/big-data/find-hotest-query-string.md)
+-   [Как подсчитать количество различных телефонных номеров?](/docs/big-data/count-different-phone-numbers.md)
+-   [Как найти медиану среди 500 миллионов чисел?](/docs/big-data/find-mid-value-in-500-millions.md)
+-   [Как отсортировать запросы по частоте?](/docs/big-data/sort-the-query-strings-by-counts.md)
+-   [Как найти 500 наибольших чисел?](/docs/big-data/find-rank-top-500-numbers.md)
+-   [Расскажите о типовых подходах к решению задачи TopK в больших данных.](/docs/big-data/topk-problems-and-solutions.md)
 
-## Stars 趋势
+## Тренд звёзд на GitHub
 
-<a href="https://github.com/doocs/advanced-java/stargazers" target="_blank"><img src="./images/starcharts.svg" alt="Stargazers over time" /></a>
+<a href="https://github.com/doocs/advanced-java/stargazers" target="_blank"><img src="./images/starcharts.svg" alt="Количество звёзд с течением времени" /></a>
 
-注：本趋势图由 [actions-starcharts](https://github.com/MaoLongLong/actions-starcharts) 自动定时刷新，作者 [@MaoLongLong](https://github.com/maolonglong)
+Примечание: этот график автоматически обновляется с помощью [actions-starcharts](https://github.com/MaoLongLong/actions-starcharts), автор [@MaoLongLong](https://github.com/maolonglong)
 
 ---
 
-## Doocs 社区优质项目
+## Качественные проекты сообщества Doocs
 
-Doocs 技术社区，致力于打造一个内容完整、持续成长的互联网开发者学习生态圈！以下是 Doocs 旗下的一些优秀项目，欢迎各位开发者朋友持续保持关注。
+Сообщество разработчиков Doocs стремится создать полноценную и постоянно развивающуюся экосистему для обучения интернет-разработчиков! Ниже представлены некоторые из наших проектов. Приглашаем разработчиков следить за ними.
 
-| #   | 项目                                                              | 描述                                                                                             | 热度                                                                                                                            |
-| --- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [advanced-java](https://github.com/doocs/advanced-java)           | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。 | ![](https://badgen.net/github/stars/doocs/advanced-java) <br>![](https://badgen.net/github/forks/doocs/advanced-java)           |
-| 2   | [leetcode](https://github.com/doocs/leetcode)                     | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解。        | ![](https://badgen.net/github/stars/doocs/leetcode) <br>![](https://badgen.net/github/forks/doocs/leetcode)                     |
-| 3   | [source-code-hunter](https://github.com/doocs/source-code-hunter) | 互联网常用组件框架源码分析。                                                                     | ![](https://badgen.net/github/stars/doocs/source-code-hunter) <br>![](https://badgen.net/github/forks/doocs/source-code-hunter) |
-| 4   | [jvm](https://github.com/doocs/jvm)                               | Java 虚拟机底层原理知识总结。                                                                    | ![](https://badgen.net/github/stars/doocs/jvm) <br>![](https://badgen.net/github/forks/doocs/jvm)                               |
-| 5   | [coding-interview](https://github.com/doocs/coding-interview)     | 代码面试题集，包括《剑指 Offer》、《编程之美》等。                                               | ![](https://badgen.net/github/stars/doocs/coding-interview) <br>![](https://badgen.net/github/forks/doocs/coding-interview)     |
-| 6   | [md](https://github.com/doocs/md)                                 | 一款高度简洁的微信 Markdown 编辑器。                                                             | ![](https://badgen.net/github/stars/doocs/md) <br>![](https://badgen.net/github/forks/doocs/md)                                 |
-| 7   | [technical-books](https://github.com/doocs/technical-books)       | 值得一看的技术书籍列表。                                                                         | ![](https://badgen.net/github/stars/doocs/technical-books) <br>![](https://badgen.net/github/forks/doocs/technical-books)       |
+| #   | Проект                                                            | Описание                                                                                                                  | Популярность                                                                                                                   |
+| --- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | [advanced-java](https://github.com/doocs/advanced-java)           | Исчерпывающее руководство по углублённым знаниям для Java-инженера: высокая параллельность, распределённые системы, высокая доступность, микросервисы, большие данные. | ![](https://badgen.net/github/stars/doocs/advanced-java) <br>![](https://badgen.net/github/forks/doocs/advanced-java)           |
+| 2   | [leetcode](https://github.com/doocs/leetcode)                     | Решения задач LeetCode, "Предложение меча" (2-е издание), "Золотое собеседование программиста" (6-е издание) на разных языках. | ![](https://badgen.net/github/stars/doocs/leetcode) <br>![](https://badgen.net/github/forks/doocs/leetcode)                     |
+| 3   | [source-code-hunter](https://github.com/doocs/source-code-hunter) | Анализ исходных кодов популярных интернет-фреймворков и компонентов.                                                       | ![](https://badgen.net/github/stars/doocs/source-code-hunter) <br>![](https://badgen.net/github/forks/doocs/source-code-hunter) |
+| 4   | [jvm](https://github.com/doocs/jvm)                               | Конспекты по внутреннему устройству виртуальной машины Java.                                                               | ![](https://badgen.net/github/stars/doocs/jvm) <br>![](https://badgen.net/github/forks/doocs/jvm)                               |
+| 5   | [coding-interview](https://github.com/doocs/coding-interview)     | Сборник задач для собеседований, включая "Предложение меча", "Красота программирования" и др.                             | ![](https://badgen.net/github/stars/doocs/coding-interview) <br>![](https://badgen.net/github/forks/doocs/coding-interview)     |
+| 6   | [md](https://github.com/doocs/md)                                 | Лаконичный редактор Markdown для WeChat.                                                                                  | ![](https://badgen.net/github/stars/doocs/md) <br>![](https://badgen.net/github/forks/doocs/md)                                 |
+| 7   | [technical-books](https://github.com/doocs/technical-books)       | Список технических книг, заслуживающих внимания.                                                                          | ![](https://badgen.net/github/stars/doocs/technical-books) <br>![](https://badgen.net/github/forks/doocs/technical-books)       |
 
-## 贡献者
+## Участники
 
-感谢以下所有朋友对 [Doocs 技术社区](https://github.com/doocs) 所做出的贡献，[参与项目维护请戳这儿](https://doocs.github.io/#/?id=how-to-join)。
+Благодарим всех, кто внёс вклад в [сообщество Doocs](https://github.com/doocs). [Как принять участие в разработке проектов.](https://doocs.github.io/#/?id=how-to-join)
 
 <!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
 
@@ -195,9 +195,9 @@ Doocs 技术社区，致力于打造一个内容完整、持续成长的互联�
 
 <!-- ALL-CONTRIBUTORS-LIST: END -->
 
-## 公众号
+## Официальный аккаунт в WeChat
 
-[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+Единственный официальный аккаунт сообщества [Doocs](https://github.com/doocs) — **«Doocs»**. Подписывайтесь, чтобы получать **актуальные технические знания и новости индустрии**. Также можете добавить меня в личные контакты (с пометкой GitHub), чтобы я добавил вас в чат для обсуждений.
 
 <table>
   <tr>
@@ -210,6 +210,6 @@ Doocs 技术社区，致力于打造一个内容完整、持续成长的互联�
   </tr>
 </table>
 
-关注「**Doocs**」公众号，回复 **PDF**，即可获取本项目离线 PDF 文档（283 页精华），学习更加方便！
+Подпишитесь на «**Doocs**» и ответьте **PDF**, чтобы получить офлайн-версию этого руководства в формате PDF (283 страницы) — учиться ещё удобнее!
 
 <img src="./images/pdf.png" style="width: 600px;"><br>

@@ -1,23 +1,23 @@
-# 项目补充
+#Дополнение к проекту
 
-## Offer 与进阶
+## Предложение и продвижение
 
--   [我的 Offer 在哪里？](https://doocs.gitee.io/advanced-java/#/docs/extra-page/offer)
--   [让我们同步进阶！](https://doocs.gitee.io/advanced-java/#/docs/extra-page/advanced)
+- [Где мое предложение?](https://doocs.gitee.io/advanced-java/#/docs/extra-page/offer)
+- [Давайте двигаться одновременно!](https://doocs.gitee.io/advanced-java/#/docs/extra-page/advanced)
 
-## 项目 Pages 站点
+## Сайт страниц проекта
 
 https://java.doocs.org
 
-## 维权行动
+## Действие по защите прав
 
--   [维护他人知识产权，尊重他人劳动成果](./rights-defending-action.md)
+- [Защищайте права интеллектуальной собственности других и уважайте плоды чужого труда.](./rights-defending-action.md)
 
 ---
 
-## 公众号
+## Официальный аккаунт WeChat
 
-[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+[Doocs](https://github.com/doocs) Единственный официальный аккаунт WeChat «**Doocs**» технического сообщества. Добро пожаловать, чтобы отсканировать QR-код, чтобы следовать. **Сосредоточьтесь на обмене соответствующими знаниями в технической области и новейшей отраслевой информацией**. Конечно, вы также можете добавить мою личную учетную запись WeChat (примечание: GitHub), чтобы попасть в группу технического обмена.
 
 <table>
   <tr>
@@ -30,6 +30,6 @@ https://java.doocs.org
   </tr>
 </table>
 
-关注「**Doocs**」公众号，回复 **PDF**，即可获取本项目离线 PDF 文档（283 页精华），学习更加方便！
+Подпишитесь на официальный аккаунт WeChat «**Doocs**» и ответьте **PDF**, чтобы получить автономный PDF-документ этого проекта (283 страницы сути), что сделает обучение более удобным!
 
 <img src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/advanced-java@main/images/pdf.png" style="width: 600px;"><br>

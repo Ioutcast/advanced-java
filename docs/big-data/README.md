@@ -1,21 +1,21 @@
-# 海量数据处理
+# Массивная обработка данных
 
--   [如何从大量的 URL 中找出相同的 URL？](/docs/big-data/find-common-urls.md)
--   [如何从大量数据中找出高频词？](/docs/big-data/find-top-100-words.md)
--   [如何找出某一天访问百度网站最多的 IP？](/docs/big-data/find-top-1-ip.md)
--   [如何在大量的数据中找出不重复的整数？](/docs/big-data/find-no-repeat-number.md)
--   [如何在大量的数据中判断一个数是否存在？](/docs/big-data/find-a-number-if-exists.md)
--   [如何查询最热门的查询串？](/docs/big-data/find-hotest-query-string.md)
--   [如何统计不同电话号码的个数？](/docs/big-data/count-different-phone-numbers.md)
--   [如何从 5 亿个数中找出中位数？](/docs/big-data/find-mid-value-in-500-millions.md)
--   [如何按照 query 的频度排序？](/docs/big-data/sort-the-query-strings-by-counts.md)
--   [如何找出排名前 500 的数？](/docs/big-data/find-rank-top-500-numbers.md)
+- [Как найти один и тот же URL-адрес среди большого количества URL-адресов?](/docs/big-data/find-common-urls.md)
+- [Как найти часто встречающиеся слова в больших объемах данных?](/docs/big-data/find-top-100-words.md)
+- [Как узнать IP-адреса, которые посещают большинство веб-сайтов Baidu в определенный день?](/docs/big-data/find-top-1-ip.md)
+- [Как найти уникальные целые числа в большом объеме данных?](/docs/big-data/find-no-repeat-number.md)
+- [Как определить, существует ли число в большом объеме данных?](/docs/big-data/find-a-number-if-exists.md)
+- [Как запросить самые популярные строки запроса?](/docs/big-data/find-hotest-query-string.md)
+- [Как посчитать количество разных телефонных номеров?](/docs/big-data/count-different-phone-numbers.md)
+- [Как найти медиану из 500 миллионов чисел?](/docs/big-data/find-mid-value-in-500-millions.md)
+- [Как отсортировать по частоте запросов?](/docs/big-data/sort-the-query-strings-by-counts.md)
+- [Как найти 500 лучших номеров?](/docs/big-data/find-rank-top-500-numbers.md)
 
 ---
 
-## 公众号
+## Официальный аккаунт WeChat
 
-[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+[Doocs](https://github.com/doocs) Единственный официальный аккаунт WeChat «**Doocs**» технического сообщества. Добро пожаловать, чтобы отсканировать QR-код, чтобы следовать. **Сосредоточьтесь на обмене соответствующими знаниями в технической области и новейшей отраслевой информацией**. Конечно, вы также можете добавить мою личную учетную запись WeChat (примечание: GitHub), чтобы попасть в группу технического обмена.
 
 <table>
   <tr>
@@ -28,6 +28,6 @@
   </tr>
 </table>
 
-关注「**Doocs**」公众号，回复 **PDF**，即可获取本项目离线 PDF 文档（283 页精华），学习更加方便！
+Подпишитесь на официальный аккаунт WeChat «**Doocs**» и ответьте **PDF**, чтобы получить автономный PDF-документ этого проекта (283 страницы сути), что сделает обучение более удобным!
 
 <img src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/advanced-java@main/images/pdf.png" style="width: 600px;"><br>

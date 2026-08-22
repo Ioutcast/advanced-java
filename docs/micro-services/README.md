@@ -1,30 +1,30 @@
-# 微服务架构
+# микросервисная архитектура
 
--   [微服务架构整个章节内容属额外新增，后续抽空更新，也欢迎读者们参与补充完善](https://github.com/doocs/advanced-java)
--   [关于微服务架构的描述](/docs/micro-services/microservices-introduction.md)
--   [从单体式架构迁移到微服务架构](/docs/micro-services/migrating-from-a-monolithic-architecture-to-a-microservices-architecture.md)
--   [微服务的事件驱动数据管理](/docs/micro-services/event-driven-data-management-for-microservices.md)
--   [选择微服务部署策略](/docs/micro-services/choose-microservice-deployment-strategy.md)
--   [微服务架构的优势与不足](/docs/micro-services/advantages-and-disadvantages-of-microservice.md)
+- [Вся глава об архитектуре микросервисов является дополнительным дополнением и будет обновлена ​​позже. Читатели также могут принять участие в дополнительных улучшениях.](https://github.com/doocs/advanced-java)
+- [Описание микросервисной архитектуры](/docs/micro-services/microservices-introduction.md)
+- [Переход от монолитной архитектуры к микросервисной архитектуре](/docs/micro-services/migrating-from-a-monolithic-architecture-to-a-microservices-architecture.md)
+- [Управление данными на основе событий для микросервисов](/docs/micro-services/event-driven-data-management-for-microservices.md)
+- [Выбор стратегии развертывания микросервисов](/docs/micro-services/choose-microservice-deployment-strategy.md)
+- [Преимущества и недостатки микросервисной архитектуры](/docs/micro-services/advantages-and-disadvantages-of-microservice.md)
 
-## Spring Cloud 微服务架构
+## Архитектура микросервисов Spring Cloud
 
--   [什么是微服务？微服务之间是如何独立通讯的？](/docs/micro-services/what's-microservice-how-to-communicate.md)
--   Spring Cloud 和 Dubbo 有哪些区别？
--   Spring Boot 和 Spring Cloud，谈谈你对它们的理解？
--   什么是服务熔断？什么是服务降级？
--   微服务的优缺点分别是什么？说一下你在项目开发中碰到的坑？
--   [你所知道的微服务技术栈都有哪些？](/docs/micro-services/micro-services-technology-stack.md)
--   [微服务治理策略](/docs/micro-services/micro-service-governance.md)
--   Eureka 和 Zookeeper 都可以提供服务注册与发现的功能，它们有什么区别？
--   [谈谈服务发现组件 Eureka 的主要调用过程？](/docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
--   ......
+- [Что такое микросервисы? Как микросервисы взаимодействуют независимо друг от друга?](/docs/micro-services/what's-microservice-how-to-communicate.md)
+- В чем разница между Spring Cloud и Dubbo?
+— Spring Boot и Spring Cloud, расскажите, как вы их понимаете?
+- Что такое сервисный выключатель? Что такое резервный сервис?
+- Каковы преимущества и недостатки микросервисов? Расскажите о подводных камнях, с которыми вы столкнулись при разработке проекта?
+- [Какие стеки технологий микросервисов вы знаете?](/docs/micro-services/micro-services-technology-stack.md)
+- [стратегия управления микросервисами](/docs/micro-services/micro-service-governance.md)
+- И Eureka, и Zookeeper могут предоставлять функции регистрации и обнаружения служб. В чем разница между ними?
+- [Давайте поговорим об основном процессе вызова компонента обнаружения сервисов Eureka?](/docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
+-......
 
 ---
 
-## 公众号
+## Официальный аккаунт WeChat
 
-[Doocs](https://github.com/doocs) 技术社区旗下唯一公众号「**Doocs**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
+[Doocs](https://github.com/doocs) Единственный официальный аккаунт WeChat «**Doocs**» технического сообщества. Добро пожаловать, чтобы отсканировать QR-код, чтобы следовать. **Сосредоточьтесь на обмене соответствующими знаниями в технической области и новейшей отраслевой информацией**. Конечно, вы также можете добавить мою личную учетную запись WeChat (примечание: GitHub), чтобы попасть в группу технического обмена.
 
 <table>
   <tr>
@@ -37,6 +37,6 @@
   </tr>
 </table>
 
-关注「**Doocs**」公众号，回复 **PDF**，即可获取本项目离线 PDF 文档（283 页精华），学习更加方便！
+Подпишитесь на официальный аккаунт WeChat «**Doocs**» и ответьте **PDF**, чтобы получить автономный PDF-документ этого проекта (283 страницы сути), что сделает обучение более удобным!
 
 <img src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/advanced-java@main/images/pdf.png" style="width: 600px;"><br>
